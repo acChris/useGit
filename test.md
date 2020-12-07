@@ -8,7 +8,8 @@
 
 * ~/ssh/id.ras是私钥，不能随意分享
   
-### FAQ
+
+## FAQ
 
 **问题：git clone/push 都失败了**
 

@@ -1,7 +1,15 @@
 ## 使用gitlab进行push出现的错误
-### 前提：已输入邮箱名字
 
-### FAQ
+### 前提：已输入邮箱名字 && gitlab的ssh已经生成
+
+* ssh生成方法：ssh-keygen -t rsa -C "your_email@youremail.com"
+
+* 生成后在~(C:/Users/Administrator)/.ssh/id.ras.pub(复制pub到gitlab生成)，可以分享
+
+* ~/ssh/id.ras是私钥，不能随意分享
+  
+
+## FAQ
 
 **问题：git clone/push 都失败了**
 

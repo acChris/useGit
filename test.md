@@ -1,4 +1,4 @@
-###git push / git clone / git pull 常见错误：
+### git push / git clone / git pull 常见错误：
 
 报错：
 ![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201207235228313-1758146954.png)

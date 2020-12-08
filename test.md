@@ -89,7 +89,7 @@ fatal: unable to access 'https://gitlab.com/.../test.git/': Failed to connect to
 
 ### 参考地址：
 
-`Timed out``Connection refused``Invalid argument`的参考地址：
+`Timed out`/`Connection refused`/`Invalid argument`的参考地址：
 
 * https://blog.csdn.net/u013468614/article/details/83116044
 

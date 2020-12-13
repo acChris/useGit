@@ -86,6 +86,8 @@ fatal: unable to access 'https://gitlab.com/.../test.git/': Failed to connect to
 
 输入`git rebase --abort`即可解决
 
+#### Q：fatal: unable to access 'https://gitlab.com/.../test.git/': Failed to connect to gitlab.com port 443: Timed out
+
 
 ### 参考地址：
 

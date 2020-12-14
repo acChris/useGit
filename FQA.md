@@ -21,6 +21,8 @@ gitlab.com[0: 180.97.125.228]: errno=Invalid argument
 
 `Timed out`
 
+![](/images/Timed%20out%20443.jpg)
+
 **或**
 
 ```

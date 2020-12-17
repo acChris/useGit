@@ -78,6 +78,10 @@ and the repository exists.
 
 我记得我有一次只输入了一次这个env|grep -i proxy ，然后再尝试push，依旧失败，所以这一步不能省略。
 
+#### Q:可以流畅浏览gitlab，但是pull、push等操作一直Timed out：
+
+      可能是当前网络不行，换一个网络。（前提要联外网）
+
 #### Q：在不慎多次提交后出现 (master|REBASE 1/2)，
 
 ```

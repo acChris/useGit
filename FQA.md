@@ -80,7 +80,8 @@ and the repository exists.
 
 #### Q:可以流畅浏览gitlab，但是pull、push等操作一直Timed out：
 
-      可能是当前网络不行，换一个网络。（前提要联外网）
+      1.可能是当前网络不行，换一个网络。（前提要联外网）
+      2.或者可以尝试再次push。
 
 #### Q：在不慎多次提交后出现 (master|REBASE 1/2)，
 

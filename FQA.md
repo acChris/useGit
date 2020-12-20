@@ -44,11 +44,11 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201207234828195-1259868842.png)
+![](/images/config_gitPath.jpg)
 
 **解决方案：**
 
-1. 方案2：
+1. 方案1：
 
       1. 经过百度，知道可能是github/gitlab上面的README.md文件不在本地目录，可以先合并：
 

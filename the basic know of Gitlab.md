@@ -12,9 +12,9 @@
 
 1. 在search setting里面输入git.path，选择设置-设置为json文本
 
-![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201201214432704-1434695907.png)
+![](/images/config_gitPath.jpg)
 
-3. 如图，Edit in setting.json,接着就可以在文本里面输入你的git路径：
+1. 如图，Edit in setting.json,接着就可以在文本里面输入你的git路径：
 比如D:\\Program Files\\Git\\bin\\git.exe（这里必须双\\）
 
 ### Git文件/文件夹基础操作

@@ -149,10 +149,10 @@ git push --force origin master
 
 1. cat .git/config
 
-![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201205183929327-1622618385.png)
+![](/images/cat_GitConfig.png)
 
 
-3.  如图，最下面一行就是已配置完成。输入一次后下一次就不用输入密码了。
+1.  如图，最下面一行就是已配置完成。输入一次后下一次就不用输入密码了。
 
 
 ### 参考资料

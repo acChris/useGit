@@ -4,6 +4,17 @@
 报错：
 ![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201207235228313-1758146954.png)
 
+**原因分析：**
+由于国内网络问题，当我们git clone 从github/gitlab克隆一个仓库代码下来时，速度十分慢。虽然挂了vpn，设置、取消代理等，但实际上很少有用。
+
+**解决方案：**
+可以通过gitee解决。
+
+1. 我们先在gitee上导入已有仓库(你要克隆的仓库)，然后再从gitee clone即可。
+
+例：gitee导入仓库后，git clone https://gitee.com/xxx/xxx.git
+
+
 #### Q：git clone/push 都失败了
 
 ```
@@ -36,9 +47,8 @@ and the repository exists.
 ![](https://img2020.cnblogs.com/blog/2191525/202012/2191525-20201207234828195-1259868842.png)
 
 **解决方案：**
-1. 方案1：https://改成git@
 
-2. 方案2：
+1. 方案2：
 
       1. 经过百度，知道可能是github/gitlab上面的README.md文件不在本地目录，可以先合并：
 

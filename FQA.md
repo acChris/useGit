@@ -1,4 +1,18 @@
 ### FAQ
+
+## Q：远程仓库的README.md本地没有，导致push失败：
+
+```
+! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to ...
+```
+
+确保要push的仓库和当前仓库一致。
+
+ 解决方案：
+
+  *git* *pull* --*rebase* *origin* *master*
+
 #### Q：git push / git clone / git pull 常见错误：
 
 报错：
@@ -102,8 +116,9 @@ fatal: unable to access 'https://gitlab.com/.../test.git/': Failed to connect to
 
 输入`git rebase --abort`即可解决
 
-#### Q：fatal: unable to access 'https://gitlab.com/.../test.git/': Failed to connect to gitlab.com port 443: Timed out
+#### Q：git clone 出现filename too long ：
 
+      git config --global core.longpaths true
 
 ### 参考地址：
 

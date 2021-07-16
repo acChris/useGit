@@ -129,10 +129,43 @@
 
 //第一次创建仓库
 1. git init
+
 1. git add .
+
 1. git commit -m 'test'
+
 1. git remote add origin https地址
+
 1. git push origin master
+
+   
+
+### 官方介绍：
+
+#### …or create a new repository on the command line
+
+
+
+```
+echo "# useGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+//重命名分支main
+git branch -M main
+git remote add origin https://github.com/acChris/useGit.git
+git push -u origin main
+```
+
+#### …or push an existing repository from the command line
+
+
+
+```
+git remote add origin https://github.com/acChris/useGit.git
+git branch -M main
+git push -u origin main
+```
 
 ### 如果本地版本与远程版本有差异，但又要强制推送可以使用 --force 参数：
 
